@@ -1,0 +1,43 @@
+:root{
+  --sidebar-left-padding: 2rem;
+}
+.sidebar{
+  height: 100%;
+  border-right: solid rgba(134, 134, 134, 0.608) 0.25px;
+  background-color: #fff;
+  display: block;
+  display: grid;
+  grid-template-rows: 5rem 1fr;
+}
+.sidebar > .logo{
+  display: flex;
+  align-items:center;
+  padding-left: var(--sidebar-left-padding);
+  font-size: 24px;
+  font-weight: 800;
+  height: var(--header-height);
+  border-bottom: solid rgba(73, 73, 73, 0.632) 1px;
+}
+.sidebar > .display-categories{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sidebar > .display-categories > h3 {
+  font-weight: 400;
+  font-size: medium;
+  margin-bottom: 0.25rem;
+}
+.sidebar > .display-categories ul{
+
+  padding: 0rem;
+}
+.sidebar > .display-categories ul > li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: medium;
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.form-content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+.add-form{
+    position: absolute;
+    width: 410px;
+    height: 40rem;
+    padding: 2rem 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #FFFFFF;
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+}
+.add-form figcaption{
+    font-family: 'Ovo', serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.add-form .input--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+}
+.add-form .input--wrapper > label{
+    padding-left: 0.2rem;
+    font-weight: 600;
+}
+.add-form input{ 
+    padding: 0px 20px;
+    font-size: 12px;
+    width: 260px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    margin-bottom: 0.7rem;
+}
+.add-form input:focus{ 
+    outline: 2px solid #0164fb;
+    /* outline: 2px solid #000; */
+    color: #000;
+}
+.add-form .form-button{
+    margin-top: 1rem;
+    padding: 11px 16px;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 260px;
+    height: 60px;
+    color: #fff;
+    background: #000;
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#cancel{
+    height: 1.8rem;
+    margin: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}

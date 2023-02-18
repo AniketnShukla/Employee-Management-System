@@ -1,0 +1,23 @@
+#no-data-display{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #d9d9d9;
+}
+
+.table-wrapper{
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.addr{
+  display: flex;
+  max-width: 9rem;
+}
