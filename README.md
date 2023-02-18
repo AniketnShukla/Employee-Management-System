@@ -11,8 +11,11 @@ This installs all required dependencies from package.json
 In the project directory, you can run:
 
 ### `npm start`
-
 Runs the app in the development mode.\
+
+For Automatic Reload on changes, run
+### npm start nodemon index
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
